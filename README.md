@@ -16,7 +16,7 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 + model.py: 定义了各种神经网络的具体结构，如DNN, CNN, TDNN, DFSMN, LSTM等
 + train.py: 训练数据的方法train，和测试数据的方法test
 + run.py: 主程序，通过其运行整个识别任务，在其中可设置训练所需的各种参数
-+ utils.py: 项目实现过程中用到的一些工具，如对音频数据预处理切割为相同长度的音频，绘制loss图等
++ utils: 项目实现过程中用到的一些工具，如对音频数据预处理切割为相同长度的音频，绘制loss图等
 
 ## 数据集
 
