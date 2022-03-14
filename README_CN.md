@@ -12,7 +12,7 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 ## 项目文件
 
-+ dataset.py: 定义类KWSDataset提取数据集，其中数据集格式为：path/关键词/语音文件
++ commandloader.py: 定义类CommandLoader提取数据集，其中数据集格式为：path/关键词/语音文件
 + model.py: 定义了各种神经网络的具体结构，如DNN, CNN, TDNN, DFSMN, LSTM等
 + train.py: 训练数据的方法train，和测试数据的方法test
 + run.py: 主程序，通过其运行整个识别任务，在其中可设置训练所需的各种参数
