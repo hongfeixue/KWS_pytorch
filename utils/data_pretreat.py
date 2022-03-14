@@ -5,11 +5,6 @@ import librosa
 import soundfile
 
 def file_name(file_dir):
-    '''
-    输入文件夹名称，并返回该文件夹下所有语音文件的完整路径(list类型)
-    :param file_dir:
-    :return:
-    '''
     L = []
     for root, dirs, files in os.walk(file_dir):
         for file in files:
@@ -17,23 +12,11 @@ def file_name(file_dir):
                 L.append(os.path.join(root, file))
         return L
 
-def cut_to_5s(src_dir,des_3s_dir,seconds_per_split_file):
-    '''
-    切割语音长度
-    :param src_dir: 用户需要切割的某个语音文件夹
-    :param des_3s_dir: 切割后文件存储文件夹
-    :param seconds_per_split_file: 切割后每个语音长度
-    :return:
-    '''
+def cut_to_5s(src_dir,des_dir,seconds_per_split_file):
 
     # 获取该文件夹下所有语音数据
-    # filenames = file_name(src_dir)
-    filenames = []
-    for root, dirs, files in os.walk(src_dir):
-        for file in files:
-            if file.split('.')[-1] == 'ogg':
-                filenames.append(root+'/'+file)
-
+    filenames = file_name(src_dir)
+   
     # 对每一个语音数据进行切片
     for filename in filenames:
 
@@ -63,7 +46,7 @@ def cut_to_5s(src_dir,des_3s_dir,seconds_per_split_file):
         for i in range(times):
             # 语音文件切割
             part = y[start_time:end_time]
-            data_split_filename = des_3s_dir+ '/' + name + '_' + str(i) + '.wav'
+            data_split_filename = des_dir+ '/' + name + '_' + str(i) + '.wav'
             print(data_split_filename)
             # 保存切割文件
 #             part.export(data_split_filename, format="wav")
