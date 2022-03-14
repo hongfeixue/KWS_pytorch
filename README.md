@@ -32,3 +32,25 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 + [下载地址]([Synthetic Speech Commands Dataset | Kaggle](https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset))
 
+
+## 实验结果
+
+关键词识别任务：
++ STFT：
+
+![acc](https://user-images.githubusercontent.com/63407850/158146828-052632ab-4b8c-4e25-acac-337d4ca51896.png)
++ Deep KWS:
+
+![acc_KWS](https://user-images.githubusercontent.com/63407850/158160063-43cf819b-f47d-41df-bbf6-bf1038c901e2.png)
+
++ Table of Accuary: 
+
+| Module   | epoch1 | epoch2 | epoch3 | epoch4 | epoch5 | text   |
+| -------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| DNN      | 38.57% | 52.85% | 58.81% | 67.48% | 71.00% | 62.59% |
+| CNN      | 95.30% | 96.12% | 96.30% | 97.20% | 96.75% | 95.17% |
+| TDNN     | 70.10% | 69.02% | 74.35% | 77.87% | 80.76% | 76.50% |
+| LSTM     | 57.36% | 74.35% | 75.16% | 79.31% | 81.39% | 78.75% |
+| DFSMN    | 91.15% | 92.14% | 94.94% | 93.86% | 94.04% | 90.34% |
+| DNN(KWS) | 87.97% | 90.37% | 91.04% | 91.18% | 90.44% | 89.67% |
+
