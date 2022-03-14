@@ -13,7 +13,7 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 ## Documents
 
-+ dataset.py: KWSDataset is defined for data extraction. The data is structured as follow
++ command_loader.py: CommandLoader is defined for data extraction. The data is structured as follow
   + path/key words/audio file (.wav)
 
 + model.py: Implementation of several backbones: DNN, CNN, TDNN, DFSMN, LSTM.
