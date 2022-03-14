@@ -24,17 +24,17 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 ## Datasets
 
-**Key-word spotting：**
-
-+ MobvoiHotwords: A corpus\* *of\* *wake-up\* *words\* *collected\* *from\* *a\* *commercial\* *smart\* *speaker\* *of\* *Mobvoi\*.*
-  + Containing audio of "Hi xiaowen" and " Nihao Wenwen", as well as noise speech.
-  + [homepage](https://link.ailemon.me/?target=http://openslr.magicdatatech.com/resources/87/mobvoi_hotword_dataset.tgz)
-
 **Speech wake-up：**
+
++ MobvoiHotwords: A corpus of wake-up words collected from a commercial smart speaker of Mobvoi.
+  + Containing audio of "Hi xiaowen" and " Nihao Wenwen", as well as noise speech.
+  + [Homepage](https://www.openslr.org/87)
+
+**Key-word spotting：**
 
 + Consisted of key-words audio of thirty categories, e.g., "bed", "bird", "cat", "dog", "eight", "five", "stop", "wow", "zero".
 
-+ [Download Address]([Synthetic Speech Commands Dataset | Kaggle](https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset))
++ [Download link]([Synthetic Speech Commands Dataset | Kaggle](https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset))
 
 
 ## Visualization of Results
