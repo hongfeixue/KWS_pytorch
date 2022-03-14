@@ -32,9 +32,9 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 **Speech wake-up：**
 
-+ Consisted of key-words audio of thirty categories, e.g., "bed", "bird", cat, dog, eight, five, stop, wow, zero.
++ Consisted of key-words audio of thirty categories, e.g., "bed", "bird", "cat", "dog", "eight", "five", "stop", "wow", "zero".
 
-+ [下载地址]([Synthetic Speech Commands Dataset | Kaggle](https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset))
++ [Download Address]([Synthetic Speech Commands Dataset | Kaggle](https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset))
 
 
 ## Visualization of Results
@@ -69,5 +69,6 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 ![acc](https://user-images.githubusercontent.com/63407850/158172843-73ad9507-d7fe-4087-898a-4afbec1d3278.png)
 
 + Loss:
+
 ![loss](https://user-images.githubusercontent.com/63407850/158172839-e1a75c50-bfed-485c-9e69-d552d96e05f0.png)
 
