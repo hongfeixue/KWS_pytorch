@@ -41,12 +41,12 @@ Keyword spotting, Speech wake_up, pytorch, DNN, CNN, TDNN, DFSMN, LSTM
 
 **Key-word spotting：**
 
-+ Batchsize-Accuracy curve with STFT：
++ Batchnums-Accuracy curve with STFT：
 
 ![acc](https://user-images.githubusercontent.com/63407850/158172947-82f73d51-4949-414c-8110-0374e02501b2.png)
 
 
-+ Batchsize-Accuracy curve with Deep KWS:
++ Batchnums-Accuracy curve with Deep KWS:
 
 ![acc_KWS](https://user-images.githubusercontent.com/63407850/158172962-eff34f16-26be-43e6-afa0-a908b8642cc2.png)
 
